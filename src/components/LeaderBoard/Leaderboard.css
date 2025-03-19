@@ -1,0 +1,68 @@
+.leaderboard-container {
+  margin-top: 20px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 500px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.leaderboard-table {
+  width: 100%;
+  min-width: 500px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 10px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.sortable-header {
+  cursor: pointer;
+  user-select: none;
+}
+
+.name-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.name-link:hover {
+  color: #0056b3;
+}
+
+.action-btn,
+.delete-btn {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.delete-btn:hover {
+  border-color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.action-btn:hover {
+  border-color: green;
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+.no-match-message {
+  text-align: center;
+  padding: 10px;
+  color: #555;
+  font-style: italic;
+}
